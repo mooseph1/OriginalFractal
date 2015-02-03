@@ -33,8 +33,8 @@ public void circles(int x, int y, int radius)
 	if(radius >= 5)
 	{
 		circles(x - (int)(radius/2), y - (int)(radius/2), (int)(radius/2));
-		circles(x - (int)(radius/2), y + (int)(radius/2), (int)(radius/2));
-		circles(x + (int)(radius/2), y - (int)(radius/2), (int)(radius/2));
+		// circles(x - (int)(radius/2), y + (int)(radius/2), (int)(radius/2));
+		// circles(x + (int)(radius/2), y - (int)(radius/2), (int)(radius/2));
 		circles(x + (int)(radius/2), y + (int)(radius/2), (int)(radius/2));
 	}
 }
